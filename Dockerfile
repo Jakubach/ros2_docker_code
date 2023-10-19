@@ -1,4 +1,4 @@
-FROM ros:humble
+FROM osrf/ros:humble-desktop
 ARG USERNAME=Jakub
 ARG USER_UID=1000
 ARG USER_GID=$USER_UID
