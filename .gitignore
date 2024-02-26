@@ -1,0 +1,10 @@
+# ignore files in folder build and devel
+cache/humble/build/*
+cache/humble/install/*
+cache/humble/log/*
+
+
+# but keep the empty folder
+!cache/humble/build/.gitkeep
+!cache/humble/install/.gitkeep
+!cache/humble/log/.gitkeep
